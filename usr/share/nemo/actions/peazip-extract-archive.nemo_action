@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Name=Peazip extract from archive
+Icon-Name=peazip
+Exec=peazip -ext2folder %F
+Selection=any
+Mimetypes=application/x-cd-image;application/x-bzip-compressed-tar;application/x-compressed-tar;application/x-tar;application/x-cpio;application/zip;application/x-deb;
+Name[tr]=Peazip arşivden çıkart
+Dependencies=peazip;
