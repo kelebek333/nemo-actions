@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Name=Peazip add to archive
+Icon-Name=peazip
+Exec=peazip -add2multi %F
+Selection=any
+Extensions=any;
+Name[tr]=Peazip arşive ekle
+Dependencies=peazip;
