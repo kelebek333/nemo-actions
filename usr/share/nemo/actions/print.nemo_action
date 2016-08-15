@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Print
+Name[tr]=Yazdır
+Comment=Print files
+Comment[tr]=Dosya yazdırın
+Exec=/usr/bin/lpr -p '%F'
+Icon-Name=gtk-print
+Selection=s;
+Extensions=any;nodirs;
