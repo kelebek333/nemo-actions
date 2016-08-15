@@ -6,4 +6,4 @@ Icon-Name=dialog-password
 Exec=gksudo xdg-open %F
 Selection=s;
 Extensions=nodirs;
-Dependencies=nemo
+Dependencies=nemo;
