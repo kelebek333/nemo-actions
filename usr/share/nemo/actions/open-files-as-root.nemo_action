@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Name=Open file as root
+Name[tr]=Dosyayı yönetici olarak aç
+Icon-Name=dialog-password
+Exec=gksudo xdg-open %F
+Selection=s;
+Extensions=nodirs;
+Dependencies=nemo
