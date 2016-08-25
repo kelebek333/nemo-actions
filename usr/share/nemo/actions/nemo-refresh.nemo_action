@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Refresh
+Name[tr]=Tazele
+Comment=Nemo Refresh
+Exec=xdotool key ctrl+r
+Selection=None
+Extensions=any;
+Icon-Name=view-refresh
+Dependencies=xdotool;
