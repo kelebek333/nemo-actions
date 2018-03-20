@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Name=Run with Python2
+Icon-Name=peazip
+Exec=env python2 %U
+Selection=S
+Name[tr]=Python2 ile Aç
+Extensions=py;
+Icon-Name=python
