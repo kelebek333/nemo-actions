@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Name=Run with Python3
+Icon-Name=peazip
+Exec=env /usr/bin/python3 %F
+Selection=S
+Name[tr]=Python3 ile Aç
+Extensions=py;
+Icon-Name=python
