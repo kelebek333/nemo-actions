@@ -3,7 +3,7 @@
 Name=Open file as root
 Name[tr]=Dosyayı yönetici olarak aç
 Icon-Name=dialog-password
-Exec=pkexec xdg-open %F
+Exec=gnome-terminal -e "sudo xdg-open %F" &
 Selection=s;
 Extensions=nodirs;
 Dependencies=nemo;
