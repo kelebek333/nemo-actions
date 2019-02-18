@@ -3,7 +3,7 @@
 Name=Open file as root
 Name[tr]=Dosyayı yönetici olarak aç
 Icon-Name=dialog-password
-Exec=gnome-terminal -e "sudo xdg-open %F" &
+Exec=/bin/sh -c 'pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY gvfs-open %U'
 Selection=s;
 Extensions=nodirs;
 Dependencies=nemo;
