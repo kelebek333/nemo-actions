@@ -1,0 +1,21 @@
+[Nemo Action]
+
+Name=Change System Theme
+
+Comment=Change system theme
+
+Name[tr]=Sistem Temasını Değiştir
+
+Comment[tr]=Sistem temasını değiştir
+
+Exec=cinnamon-settings themes
+
+Selection=None
+
+Icon-Name=applications-graphics-symbolic
+
+Extensions=any;
+
+Dependencies=cinnamon-settings;
+
+Conditions=desktop;dbus org.Cinnamon;
