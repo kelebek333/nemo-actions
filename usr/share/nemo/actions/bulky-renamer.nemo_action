@@ -1,0 +1,10 @@
+[Nemo Action]
+Name=Rename...
+Comment=Rename with Bulky
+Name[tr]=Yeniden Adlandır...
+Comment[tr]=Bulky ile Yeniden Adlandır
+Exec=bulky %F
+Selection=m
+Icon-Name=bulky
+Dependencies=bulky;
+Extensions=any;
